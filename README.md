@@ -1,4 +1,4 @@
-# 🎮 Video Game Sales Analysis & Market Insights
+# Video Game Sales Analysis & Market Insights
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org/)
@@ -11,23 +11,23 @@ An end-to-end exploratory data analysis (EDA) investigating historical video gam
 
 ---
 
-## 📌 Table of Contents
-- [Overview](#-overview)
-- [Dataset Description](#-dataset-description)
-- [Technologies & Libraries Used](#-technologies--libraries-used)
-- [Data Cleaning & Preprocessing](#-data-cleaning--preprocessing)
-- [Questions Answered & Analysis](#-questions-answered--analysis)
+## Table of Contents
+- [Overview](#overview)
+- [Dataset Description](#dataset-description)
+- [Technologies & Libraries Used](#technologies--libraries-used)
+- [Data Cleaning & Preprocessing](#data-cleaning--preprocessing)
+- [Questions Answered & Analysis](#questions-answered--analysis)
   - [Regional Performance & Extremes (Q1 – Q6)](#1-regional-performance--extremes)
   - [Platform & Genre Market Share (Q7 – Q10)](#2-platform--genre-market-share)
   - [Visual Insights & Strategic Trends (Q11 – Q14)](#3-visual-insights--strategic-trends)
-- [Key Insights & Findings](#-key-insights--findings)
-- [Repository Structure](#-repository-structure)
-- [Getting Started & Installation](#-getting-started--installation)
-- [Author & Acknowledgments](#-author--acknowledgments)
+- [Key Insights & Findings](#key-insights--findings)
+- [Repository Structure](#repository-structure)
+- [Getting Started & Installation](#getting-started--installation)
+- [Author & Acknowledgments](#author--acknowledgments)
 
 ---
 
-## 📖 Overview
+## Overview
 
 The video game industry has evolved from arcade novelties into one of the largest entertainment sectors in the world. This project analyzes over **16,500 video game titles** to answer key commercial and analytical questions:
 
@@ -40,7 +40,7 @@ All findings are documented interactively in [`Video_game_analysis.ipynb`](Video
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 The dataset is sourced directly from Kaggle via the `kagglehub` API ([`gregorut/videogamesales`](https://www.kaggle.com/datasets/gregorut/videogamesales)). It records video games with sales greater than 100,000 copies from 1980 through modern consoles.
 
@@ -60,7 +60,7 @@ The dataset is sourced directly from Kaggle via the `kagglehub` API ([`gregorut/
 
 ---
 
-## 🛠 Technologies & Libraries Used
+## Technologies & Libraries Used
 
 This project leverages modern Python data science and visualization tooling:
 
@@ -79,7 +79,7 @@ This project leverages modern Python data science and visualization tooling:
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 
 Before exploratory analysis, a thorough data quality audit was executed:
 
@@ -90,7 +90,7 @@ Before exploratory analysis, a thorough data quality audit was executed:
 
 ---
 
-## ❓ Questions Answered & Analysis
+## Questions Answered & Analysis
 
 The analysis is organized into three analytical tracks covering **14 structured questions**:
 
@@ -144,7 +144,7 @@ The analysis is organized into three analytical tracks covering **14 structured 
 
 ---
 
-## 💡 Key Insights & Findings
+## Key Insights & Findings
 
 1. **North America is the Primary Revenue Engine**: NA sales have the strongest mathematical correlation with global sales; games that underperform in NA rarely reach the global top 10.
 2. **Japan's Distinct Market Identity**: While NA and EU share similar tastes (Action, Shooters, Sports), the Japanese market is uniquely dominated by **Role-Playing Games (RPGs)** and handheld platforms (Nintendo DS, Game Boy).
@@ -153,7 +153,7 @@ The analysis is organized into three analytical tracks covering **14 structured 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```plaintext
 video-game-sales-analysis/
@@ -166,7 +166,7 @@ video-game-sales-analysis/
 
 ---
 
-## 🚀 Getting Started & Installation
+## Getting Started & Installation
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -203,7 +203,7 @@ video-game-sales-analysis/
 
 ---
 
-## 👤 Author & Acknowledgments
+## Author & Acknowledgments
 
 - **Author**: Mohamed Mohab ([@mohamedmohabcv111-oss](https://github.com/mohamedmohabcv111-oss))
 - **Dataset**: Provided by Gregory Smith ([gregorut](https://www.kaggle.com/gregorut)) on Kaggle.
